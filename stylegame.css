@@ -1,0 +1,74 @@
+#quadrado {
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	position: absolute;
+	-webkit-transition: linear 1000ms;
+	-moz-transition: linear 1000ms;
+	-o-transition: linear 1000ms;
+)}
+
+.pos-1 {
+	left: 0;
+	top: calc(100% - 200px);
+	border-radius: 100px;
+}
+
+.pos-2 {
+	left: calc(50% - 100px);
+	top: calc(100% - 200px);
+	border-radius: 15px	;
+}
+
+.pos-3 {
+	left: calc(100% - 200px);
+	top: calc(100% - 200px);
+	border-style: solid;
+}
+
+.pos-4 {
+	left: 0;
+	top: calc(50% - 100px);
+	border: solid #789 10px;
+}
+
+.pos-5 {
+	left: calc(50% - 100px);
+	top: calc(50% - 100px);
+}
+
+.pos-6 {
+	left: calc(100% - 200px);
+	top: calc(50% - 100px);
+	border-style: dotted;
+}
+
+.pos-7 {
+	left: 0;
+	top: 0;
+	border-style: groove;
+}
+
+.pos-8 {
+	left: calc(50% - 100px);
+	top: 0;
+	border-left-style: solid;
+}
+
+.pos-9 {
+	left: calc(100% - 200px);
+	top: 0;
+	border: 1px solid #BA5900;
+}
+
+@-webkit-keyframes rotation {
+   to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes rotation {
+	to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes rotation {
+    to { -ms-transform: rotate(360deg); }
+}
